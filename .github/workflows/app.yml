@@ -24,4 +24,4 @@ jobs:
       - name: Run script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python bot.py '${{ toJSON(github.event) }}'
+        run: python bot.py
