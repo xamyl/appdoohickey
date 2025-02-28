@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import AppPage from './components/AppPage';
 
-// Global style for fonts and theme
 const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Poppins', sans-serif;
@@ -125,7 +124,7 @@ const App = () => {
   const fetchApps = async () => {
     setLoading(true);
     try {
-      const response = await fetch('/apps.json');
+      const response = await fetch('https://raw.githubusercontent.com/xamyl/appdoohickey/main/apps.json');
       if (!response.ok) {
         throw new Error('Failed to fetch apps');
       }
@@ -140,7 +139,6 @@ const App = () => {
     }
   };
 
-  // Add some default apps as fallback
   const defaultApps = [
     {
       name: "Fallbacker",
@@ -156,7 +154,6 @@ const App = () => {
 
   useEffect(() => {
     fetchApps();
-    // If no apps loaded after 2 seconds, use defaults
     const timeout = setTimeout(() => {
       setApps(prev => prev.length === 0 ? defaultApps : prev);
     }, 2000);
