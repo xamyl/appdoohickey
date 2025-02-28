@@ -1,0 +1,74 @@
+[
+  {
+    "name": "VLC",
+    "description": "A powerful media player",
+    "developer": {
+      "name": "VideoLan",
+      "url": "https://github.com/videolan",
+      "avatar": "https://avatars.githubusercontent.com/u/1389585"
+    },
+    "longDescription": "VLC is a powerful video/audio playback tool, supporting many formats and operating systems.",
+    "downloadUrl": "https://www.videolan.org/vlc/#download",
+    "sourceUrl": "https://code.videolan.org/videolan/vlc",
+    "version": "3.0.21",
+    "releaseDate": "2024-06-05",
+    "size": "45.2 MB",
+    "requirements": "Windows 10/11, macOS 8+, or Linux",
+    "features": [
+      "Video and audio playback in 50+ formats",
+      "Lightweight",
+      "Live ffmpeg streams",
+      "Good support",
+      "Infinite warranty, and more all for free!"
+    ],
+    "screenshots": [
+      "https://avatars.githubusercontent.com/u/1389585?s=200&v=4",
+      "https://images.videolan.org/vlc/screenshots/android/playback-medium.jpg"
+    ]
+  },
+  {
+    "name": "SLYWNETBBAA",
+    "description": "Swift Library",
+    "developer": {
+      "name": "Southwest Airlines",
+      "url": "https://twitter.com/SouthwestAir",
+      "avatar": "https://pbs.twimg.com/profile_images/1419725933649465344/XFTBtqmk_400x400.jpg"
+    },
+    "longDescription": "SLYWNETBBAA is a swift library with something. Download to get free Southwest miles, pardner! Yee haw!!!!!",
+    "downloadUrl": "https://dev.southwest.com",
+    "version": "1.5.2",
+    "releaseDate": "2024-02-28",
+    "size": "28.7 MB",
+    "requirements": "Windows XP or lower",
+    "features": [
+      "Complicated",
+      "Pain",
+      "Suffering",
+      "Swift Proccessing",
+      "Built in Taylor Swift"
+    ]
+  },
+  {
+    "name": "Media Tool Name Here",
+    "description": "Advanced media conversion and editing",
+    "longDescription": "Media Tool Name Here is your all-in-one solution for media file management. Convert between formats, edit metadata, and process multiple files in batch with this powerful yet user-friendly tool.",
+    "downloadUrl": "https://mediatool.io/mediatoolnamehere/download",
+    "sourceUrl": "https://github.com/mediatoolnamehere/source code",
+    "version": "3.0.1",
+    "releaseDate": "2024-03-01",
+    "size": "64.8 MB",
+    "requirements": "Windows 10/11, macOS 11+",
+    "features": [
+      "Support for 50+ media formats",
+      "Batch processing",
+      "Metadata editor",
+      "Audio extraction",
+      "Video trimming and joining"
+    ],
+    "screenshots": [
+      "https://example.com/mediatool3/screen1.png",
+      "https://example.com/mediatool3/screen2.png",
+      "https://example.com/mediatool3/screen3.png"
+    ]
+  }
+]
