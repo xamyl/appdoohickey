@@ -27,26 +27,19 @@
     ]
   },
   {
-    "name": "SLYWNETBBAA",
-    "description": "Swift Library",
+    "name": "Actions test",
+    "description": "test",
     "developer": {
       "name": "Southwest Airlines",
       "url": "https://twitter.com/SouthwestAir",
       "avatar": "https://pbs.twimg.com/profile_images/1419725933649465344/XFTBtqmk_400x400.jpg"
     },
-    "longDescription": "SLYWNETBBAA is a swift library with something. Download to get free Southwest miles, pardner! Yee haw!!!!!",
+    "longDescription": "Yee haw!!!!!",
     "downloadUrl": "https://dev.southwest.com",
     "version": "1.5.2",
     "releaseDate": "2024-02-28",
     "size": "28.7 MB",
     "requirements": "Windows XP or lower",
-    "features": [
-      "Complicated",
-      "Pain",
-      "Suffering",
-      "Swift Proccessing",
-      "Built in Taylor Swift"
-    ]
   },
   {
     "name": "Media Tool Name Here",
