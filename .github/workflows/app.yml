@@ -13,9 +13,15 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Download and Run Script
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          curl -sSL "https://files.catbox.moe/pq7wjh.py" -o "script.py"
-          python script.py '${{ toJSON(github.event) }}'
+        run: python bot.py '${{ toJSON(github.event) }}'
